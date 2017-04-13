@@ -1,0 +1,2572 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ali/ontologies/2016/2/ontologyVersion2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ali/ontologies/2016/2/ontologyVersion2">
+    <Prefix name="" IRI="http://www.semanticweb.org/ali/ontologies/2016/2/ontologyVersion2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Behaviour Biomolecular Ontology that describes various biomolecular based on their structure.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Transcription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_10_p32"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#deltaC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activeState_1_G32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProteinMetaboliteInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneProteinInteraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_7_p32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetabolicNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NodeState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntraomicInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ARN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activation_p32_G32"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInteraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#p32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneticNetwork"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#seuil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiomolecularNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneGeneInteraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_1_p32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProteinProteinInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivationState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Node"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isStateOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isActivated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEndOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConcentrationState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaboliteMetaboliteInteraction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBehaviourOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activeState_6_G32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BacteriophageT4G32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InteromicInteraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_8_p32"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activeState_3_G32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_2_p32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#m32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_1_m32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#catalysis_m32_p32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypeInteraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_4_p32"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#forTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#transcription_G32_P32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behaviour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBehaviour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_2_m32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G32"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSourceOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activeState_4_G32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catalysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_13_p32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetaboliteProteinInteraction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTypeInteractionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metabolite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProteinGeneInteraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_14_p32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activeState_8_G32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inhibition_p32_G32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activeState_2_G32"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConcentrationValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#activeState_5_G32"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInteraction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNodeOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_3_p32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_11_p32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProteomicNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTypeInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_6_p32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concentState_9_p32"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Gene"/>
+        <ObjectUnionOf>
+            <Class IRI="#ADN"/>
+            <Class IRI="#ARN"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GeneticNetwork"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Interaction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Interaction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MetabolicNetwork"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProteomicNetwork"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ADN"/>
+        <Class IRI="#Gene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADN"/>
+        <ObjectUnionOf>
+            <Class IRI="#ADN"/>
+            <Class IRI="#ARN"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARN"/>
+        <Class IRI="#Gene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARN"/>
+        <ObjectUnionOf>
+            <Class IRI="#ADN"/>
+            <Class IRI="#ARN"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activation"/>
+        <Class IRI="#ProteinGeneInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivationState"/>
+        <Class IRI="#NodeState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiomolecularNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiomolecularNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catalysis"/>
+        <Class IRI="#MetaboliteProteinInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConcentrationState"/>
+        <Class IRI="#NodeState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gene"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gene"/>
+        <ObjectUnionOf>
+            <Class IRI="#ADN"/>
+            <Class IRI="#ARN"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneGeneInteraction"/>
+        <Class IRI="#IntraomicInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneGeneInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Gene"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneGeneInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Gene"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneProteinInteraction"/>
+        <Class IRI="#InteromicInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneProteinInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Protein"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneProteinInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Gene"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticNetwork"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticNetwork"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#GeneGeneInteraction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Gene"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibition"/>
+        <Class IRI="#ProteinGeneInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InteromicInteraction"/>
+        <Class IRI="#Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntraomicInteraction"/>
+        <Class IRI="#Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetabolicNetwork"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetabolicNetwork"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetabolicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetabolicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#MetaboliteMetaboliteInteraction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetabolicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Metabolite"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetabolicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metabolite"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaboliteMetaboliteInteraction"/>
+        <Class IRI="#IntraomicInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaboliteMetaboliteInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Metabolite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaboliteMetaboliteInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Metabolite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaboliteProteinInteraction"/>
+        <Class IRI="#InteromicInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaboliteProteinInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Protein"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetaboliteProteinInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Metabolite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protein"/>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinGeneInteraction"/>
+        <Class IRI="#InteromicInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinGeneInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Gene"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinGeneInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Protein"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinMetaboliteInteraction"/>
+        <Class IRI="#InteromicInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinMetaboliteInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Metabolite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinMetaboliteInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Protein"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinProteinInteraction"/>
+        <Class IRI="#IntraomicInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinProteinInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Protein"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinProteinInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Protein"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteomicNetwork"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteomicNetwork"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteomicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteomicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#ProteinProteinInteraction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteomicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteomicNetwork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transcription"/>
+        <Class IRI="#GeneProteinInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#BiomolecularNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#GeneticNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#GeneGeneInteraction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Gene"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#GeneGeneInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Gene"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#BiomolecularNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#MetabolicNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#MetaboliteMetaboliteInteraction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Metabolite"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#MetaboliteMetaboliteInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Metabolite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#BiomolecularNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#ProteomicNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#ProteinProteinInteraction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BiomolecularNetwork"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasInteraction"/>
+                <Class IRI="#ProteinProteinInteraction"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasNode"/>
+                <Class IRI="#Protein"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#ADN"/>
+            <Class IRI="#ARN"/>
+        </ObjectUnionOf>
+        <Class IRI="#Gene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#ADN"/>
+            <Class IRI="#ARN"/>
+        </ObjectUnionOf>
+        <Class IRI="#Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#GeneGeneInteraction"/>
+        </ObjectAllValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#MetaboliteMetaboliteInteraction"/>
+        </ObjectAllValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#ProteinProteinInteraction"/>
+        </ObjectAllValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Gene"/>
+        </ObjectAllValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Metabolite"/>
+        </ObjectAllValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ADN"/>
+        <Class IRI="#ARN"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BiomolecularNetwork"/>
+        <Class IRI="#Interaction"/>
+        <Class IRI="#Node"/>
+        <Class IRI="#TypeInteraction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Gene"/>
+        <Class IRI="#Metabolite"/>
+        <Class IRI="#Protein"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GeneGeneInteraction"/>
+        <Class IRI="#MetaboliteMetaboliteInteraction"/>
+        <Class IRI="#ProteinProteinInteraction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GeneProteinInteraction"/>
+        <Class IRI="#MetaboliteProteinInteraction"/>
+        <Class IRI="#ProteinGeneInteraction"/>
+        <Class IRI="#ProteinMetaboliteInteraction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InteromicInteraction"/>
+        <Class IRI="#IntraomicInteraction"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#BiomolecularNetwork"/>
+        <NamedIndividual IRI="#BacteriophageT4G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#BacteriophageT4G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#BacteriophageT4G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ADN"/>
+        <NamedIndividual IRI="#G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activation"/>
+        <NamedIndividual IRI="#activation_p32_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivationState"/>
+        <NamedIndividual IRI="#activeState_1_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivationState"/>
+        <NamedIndividual IRI="#activeState_2_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivationState"/>
+        <NamedIndividual IRI="#activeState_3_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivationState"/>
+        <NamedIndividual IRI="#activeState_4_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivationState"/>
+        <NamedIndividual IRI="#activeState_5_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivationState"/>
+        <NamedIndividual IRI="#activeState_6_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivationState"/>
+        <NamedIndividual IRI="#activeState_8_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Catalysis"/>
+        <NamedIndividual IRI="#catalysis_m32_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_10_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_11_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_13_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_14_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_1_m32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_1_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_2_m32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_2_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_3_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_4_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_6_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_7_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_8_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ConcentrationState"/>
+        <NamedIndividual IRI="#concentState_9_p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inhibition"/>
+        <NamedIndividual IRI="#inhibition_p32_G32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metabolite"/>
+        <NamedIndividual IRI="#m32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protein"/>
+        <NamedIndividual IRI="#p32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcription"/>
+        <NamedIndividual IRI="#transcription_G32_P32"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#BacteriophageT4G32"/>
+        <NamedIndividual IRI="#G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#BacteriophageT4G32"/>
+        <NamedIndividual IRI="#m32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNode"/>
+        <NamedIndividual IRI="#BacteriophageT4G32"/>
+        <NamedIndividual IRI="#p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#G32"/>
+        <NamedIndividual IRI="#activeState_1_G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#G32"/>
+        <NamedIndividual IRI="#activeState_2_G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#G32"/>
+        <NamedIndividual IRI="#activeState_3_G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#G32"/>
+        <NamedIndividual IRI="#activeState_4_G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#G32"/>
+        <NamedIndividual IRI="#activeState_5_G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#G32"/>
+        <NamedIndividual IRI="#activeState_6_G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#G32"/>
+        <NamedIndividual IRI="#activeState_8_G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnd"/>
+        <NamedIndividual IRI="#activation_p32_G32"/>
+        <NamedIndividual IRI="#G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#activation_p32_G32"/>
+        <NamedIndividual IRI="#p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnd"/>
+        <NamedIndividual IRI="#catalysis_m32_p32"/>
+        <NamedIndividual IRI="#p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#catalysis_m32_p32"/>
+        <NamedIndividual IRI="#m32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnd"/>
+        <NamedIndividual IRI="#inhibition_p32_G32"/>
+        <NamedIndividual IRI="#G32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#inhibition_p32_G32"/>
+        <NamedIndividual IRI="#p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#m32"/>
+        <NamedIndividual IRI="#concentState_1_m32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#m32"/>
+        <NamedIndividual IRI="#concentState_2_m32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_10_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_11_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_13_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_14_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_1_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_2_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_3_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_4_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_6_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_7_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_8_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#p32"/>
+        <NamedIndividual IRI="#concentState_9_p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnd"/>
+        <NamedIndividual IRI="#transcription_G32_P32"/>
+        <NamedIndividual IRI="#p32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSource"/>
+        <NamedIndividual IRI="#transcription_G32_P32"/>
+        <NamedIndividual IRI="#G32"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seuil"/>
+        <NamedIndividual IRI="#activation_p32_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#activeState_1_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isActivated"/>
+        <NamedIndividual IRI="#activeState_1_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#activeState_2_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#activeState_3_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#activeState_4_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isActivated"/>
+        <NamedIndividual IRI="#activeState_4_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#activeState_5_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#activeState_6_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isActivated"/>
+        <NamedIndividual IRI="#activeState_6_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#activeState_8_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isActivated"/>
+        <NamedIndividual IRI="#activeState_8_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deltaC"/>
+        <NamedIndividual IRI="#catalysis_m32_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seuil"/>
+        <NamedIndividual IRI="#catalysis_m32_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_10_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_10_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_11_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_13_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_13_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_14_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_1_m32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_1_m32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_1_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_1_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_2_m32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_2_m32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_2_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_3_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_4_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_4_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_6_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_6_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_7_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_8_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <NamedIndividual IRI="#concentState_8_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#forTime"/>
+        <NamedIndividual IRI="#concentState_9_p32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seuil"/>
+        <NamedIndividual IRI="#inhibition_p32_G32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deltaC"/>
+        <NamedIndividual IRI="#transcription_G32_P32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.1</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isNodeOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSourceOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBehaviour"/>
+        <ObjectProperty IRI="#isBehaviourOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasEnd"/>
+        <ObjectProperty IRI="#isEndOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <ObjectProperty IRI="#isInteraction"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasNode"/>
+        <ObjectProperty IRI="#isNodeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSource"/>
+        <ObjectProperty IRI="#isSourceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasState"/>
+        <ObjectProperty IRI="#isStateOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTypeInteraction"/>
+        <ObjectProperty IRI="#isTypeInteractionOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasEnd"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSource"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBehaviour"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBehaviour"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBehaviour"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnd"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnd"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnd"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNode"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNode"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTypeInteraction"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTypeInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTypeInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBehaviourOf"/>
+        <Class IRI="#Behaviour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEndOf"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInteraction"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isNodeOf"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSourceOf"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isStateOf"/>
+        <Class IRI="#NodeState"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTypeInteractionOf"/>
+        <Class IRI="#TypeInteraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBehaviour"/>
+        <Class IRI="#Behaviour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnd"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNode"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#NodeState"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTypeInteraction"/>
+        <Class IRI="#TypeInteraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBehaviourOf"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBehaviourOf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBehaviourOf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEndOf"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEndOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEndOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInteraction"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInteraction"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInteraction"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isNodeOf"/>
+        <Class IRI="#BiomolecularNetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isNodeOf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasInteraction"/>
+            <Class IRI="#Interaction"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isNodeOf"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasNode"/>
+            <Class IRI="#Node"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSourceOf"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSourceOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSourceOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isStateOf"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTypeInteractionOf"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTypeInteractionOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTypeInteractionOf"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#forTime"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasConcentrationValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isActivated"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#forTime"/>
+        <Class IRI="#NodeState"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#seuil"/>
+        <Class IRI="#Interaction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#seuil"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEnd"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#seuil"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSource"/>
+            <Class IRI="#Node"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#deltaC"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#forTime"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasConcentrationValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isActivated"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#seuil"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An exceed of the concentration &gt;0.7 of a protein makes the gene inactive</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule_//_2_ Inhibition_of_a_gene_with_time</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ADN"/>
+                <Variable IRI="#g"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#g"/>
+                <Variable IRI="#gs1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#gs1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#g"/>
+                <Variable IRI="#gs2"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#gs2"/>
+                <Variable IRI="#t2"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#t2"/>
+                <Variable IRI="#t"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Protein"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Activation"/>
+                <Variable IRI="#activ"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSource"/>
+                <Variable IRI="#activ"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEnd"/>
+                <Variable IRI="#activ"/>
+                <Variable IRI="#g"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.7</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isActivated"/>
+                <Variable IRI="#gs2"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">the activation of a gene generates an increase of the conctration of the protein</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule_//_3_ Transcription_of_a_gene</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ADN"/>
+                <Variable IRI="#g"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#g"/>
+                <Variable IRI="#gs1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#gs1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isActivated"/>
+                <Variable IRI="#gs1"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Protein"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Transcription"/>
+                <Variable IRI="#trans"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSource"/>
+                <Variable IRI="#trans"/>
+                <Variable IRI="#g"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEnd"/>
+                <Variable IRI="#trans"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#deltaC"/>
+                <Variable IRI="#trans"/>
+                <Variable IRI="#delta"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#c1"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps2"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#t2"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#t2"/>
+                <Variable IRI="#t"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#c2"/>
+                <Variable IRI="#c1"/>
+                <Variable IRI="#delta"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#c2"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A lack of the concentration &lt;0.2 of a protein makes the gene active</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule_//_1_ Activation_of_a_gene_with_time</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ADN"/>
+                <Variable IRI="#g"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#g"/>
+                <Variable IRI="#gs1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#gs1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#g"/>
+                <Variable IRI="#gs2"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#gs2"/>
+                <Variable IRI="#t2"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#t2"/>
+                <Variable IRI="#t"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Protein"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Activation"/>
+                <Variable IRI="#activ"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSource"/>
+                <Variable IRI="#activ"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEnd"/>
+                <Variable IRI="#activ"/>
+                <Variable IRI="#g"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.2</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isActivated"/>
+                <Variable IRI="#gs2"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Absence of transcription when the gene is DEactivated in the initial time t0</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule_//_4_ Absence_of_transcription_ when_the_gene_is_deactivated_at_tprecedent</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ADN"/>
+                <Variable IRI="#g"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#g"/>
+                <Variable IRI="#gs1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#gs1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isActivated"/>
+                <Variable IRI="#gs1"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Protein"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Transcription"/>
+                <Variable IRI="#trans"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSource"/>
+                <Variable IRI="#trans"/>
+                <Variable IRI="#g"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEnd"/>
+                <Variable IRI="#trans"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#c1"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps2"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#t2"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#t2"/>
+                <Variable IRI="#t"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#c1"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An exceed of the concentration &gt;0.8 of a metabolite decreases the concentration of the target protein</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule_//_5_Catalysis_of_a_gene</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Metabolite"/>
+                <Variable IRI="#m"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#m"/>
+                <Variable IRI="#ms"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ms"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ms"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Protein"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Catalysis"/>
+                <Variable IRI="#cat"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSource"/>
+                <Variable IRI="#cat"/>
+                <Variable IRI="#m"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEnd"/>
+                <Variable IRI="#cat"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#deltaC"/>
+                <Variable IRI="#cat"/>
+                <Variable IRI="#delta"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#c1"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps2"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#t2"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#t2"/>
+                <Variable IRI="#t"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.8</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="#c2"/>
+                <Variable IRI="#c1"/>
+                <Variable IRI="#delta"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#c2"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Absence of catalysis when the concentration of the metabolite is less than à.8 in the initial time t0</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule_//_6_Absence_of_Catalysis_if_the_metabolite_is_less_than_0.8</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Metabolite"/>
+                <Variable IRI="#m"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#m"/>
+                <Variable IRI="#ms"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ms"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ms"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Protein"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Catalysis"/>
+                <Variable IRI="#cat"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasSource"/>
+                <Variable IRI="#cat"/>
+                <Variable IRI="#m"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasEnd"/>
+                <Variable IRI="#cat"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#deltaC"/>
+                <Variable IRI="#cat"/>
+                <Variable IRI="#delta"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps1"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps1"/>
+                <Variable IRI="#c1"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasState"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ps2"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#forTime"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#t2"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#t2"/>
+                <Variable IRI="#t"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.8</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasConcentrationValue"/>
+                <Variable IRI="#ps2"/>
+                <Variable IRI="#c1"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ADN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all ADNs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ARN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all ARNs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BiomolecularNetwork</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all biomolecular networks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gene</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all types of genes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interaction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all interactions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Metabolite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all Metabolites.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Node</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all the nodes.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Protein</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all Proteins.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TypeInteraction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the class of all types of interactions.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
